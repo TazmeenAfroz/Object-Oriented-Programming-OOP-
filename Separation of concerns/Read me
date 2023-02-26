@@ -1,0 +1,39 @@
+LAB TASK 1
+1. Suppose you are designing a program to model a grocery store's inventory.
+Each item has a unique ID, a name, a price, and a quantity.
+Design a class for representing an item in the grocery store's inventory. The
+class should getter and setter methods where needed. It should also have a
+method for displaying the item's details. Additionally, implement a
+constructor that takes arguments for the item's ID, name, price, and quantity
+and sets them in the object. Make a default constructor too. And also a
+destructor (which prints the message object destroyed).
+The program should first ask the user to enter the total no of items to store,
+then create an array of Items of that size in main. The main should be a
+menu-driven program with the following choices:
+1). Display Items
+2). Update item details
+3). Search for items by ID
+The above methods should be declared outside the class.
+There must be functions for all the operations. Display_items() takes the
+array of objects and should display all the items with their details(ID, Name,
+Price, Quantity).
+2). UpdateItem() should take the item as an argument and further ask
+whether to update the price or the quantity. And do accordingly in the
+function. Think whether it should be pass by value or reference.
+3). Search for items by ID should take array of items, size, and the ID_NO.
+If the item is found, display its details, else display “item not found”.
+LAB TASK 2
+2. Suppose you are designing a program to manage a company's employee
+database. Each employee has a unique ID, a name, a job title, and no of
+hours worked per week. In main ask the user to enter the no of employees
+and then create an array of that no of employees and initialize their values.
+Your class must use getter and setter methods where required. The class
+must have a method named cacl_Salary()
+Now calculate the salary of each employee based on the following details:
+If the no of hours worked of that employee is less than or equal to 40, the
+salary would be hours worked multiplied by the hourly rate. If the no of
+hours worked is greater than 40, then he will get an overtime. The pay for
+the overtime hours is double than what he gets for the base hours. For that
+calculate the extra hours worked and calculate the pay only for the overtime
+and add it to the base pay. Do this for all the employees and display the
+name and salary of all the employees.
